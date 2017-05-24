@@ -29,6 +29,7 @@ class Song
     options.each do |property, value|
       self.send("#{property}=", value)
     end
+    
   end
 
   def save
@@ -59,6 +60,3 @@ class Song
   end
 
 end
-
-
-
